@@ -1,3 +1,5 @@
+[![Build and test the app](https://github.com/remortalite/hexlet-ci-app/actions/workflows/build.yml/badge.svg)](https://github.com/remortalite/hexlet-ci-app/actions/workflows/build.yml)
+
 # Example app for CI Hexlet course
 
 Starting boilerplate of [Strapi](https://strapi.io/) application

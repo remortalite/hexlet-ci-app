@@ -1,0 +1,17 @@
+name: Build and test the app
+on: 
+  - push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup
+        run: make setup
+      - name: Start
+        run: make start
+      - name: Tests
+        run: make test
+      - name: Linter
+        run: make lint
